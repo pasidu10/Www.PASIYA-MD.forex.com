@@ -20,3 +20,16 @@ body { display:flex; margin:0; font-family:'Poppins',sans-serif; background:radi
 .broker-card.good { border:2px solid #00ff99;}
 .broker-card.bad { border:2px solid #ff4d4d;}
 .broker-card:hover { transform:translateY(-10px);}
+.contact-page { text-align:center; padding:100px 20px; }
+.contact-section h1 { font-size:3rem; color:#00ffcc; margin-bottom:10px; text-shadow:0 0 20px #00ffff; }
+.contact-section p { font-size:1.2rem; margin-bottom:40px; color:#ccc; }
+
+.contact-buttons { display:flex; flex-wrap:wrap; justify-content:center; gap:20px; }
+.btn { display:inline-block; padding:15px 30px; border-radius:10px; font-size:1.2rem; font-weight:600; text-decoration:none; color:#fff; transition:0.3s; box-shadow:0 0 10px #00ffcc; }
+.btn.whatsapp { background:#25D366; box-shadow:0 0 20px #25D366; }
+.btn.email { background:#ff4d4d; box-shadow:0 0 20px #ff4d4d; }
+.btn:hover { transform:translateY(-5px); box-shadow:0 0 40px #00ffcc; text-shadow:0 0 10px #fff; }
+.signal-cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; padding:50px 20px; }
+.signal-card { background:rgba(0,20,30,0.9); border-radius:15px; padding:20px; box-shadow:0 0 20px #00ffcc; transition:transform 0.3s, box-shadow 0.3s; }
+.signal-card:hover { transform:translateY(-10px); box-shadow:0 0 40px #00ffcc; }
+.signal-card h3 { color:#00ff99; margin-bottom:10px; }
